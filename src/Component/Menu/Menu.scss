@@ -1,0 +1,34 @@
+.card{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background-color: var(--bg);
+    border: 1px solid white;
+    border-radius: 10px;
+
+    &:hover{
+        background-color: white;
+        color: #000;
+    }
+}
+.face{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .price{
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+    }
+    .price span{
+        font-size: 1rem;
+        text-decoration: line-through;
+        font-weight: lighter;
+    }
+}

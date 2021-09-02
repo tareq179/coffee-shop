@@ -1,0 +1,16 @@
+.about-item{
+    background-color: var(--black);
+
+    img{
+        width: 100%;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.1rem;
+        color:#ccc;
+        padding:1rem 0;
+        line-height: 1.8;
+    }
+}
