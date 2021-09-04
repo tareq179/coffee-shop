@@ -11,6 +11,14 @@
         color: #000;
     }
 }
+.cart{
+    position: relative;
+    width: 350px;
+     height: 480px;
+    background-color: var(--bg);
+    border: 1px solid white;
+    border-radius: 10px;
+}
 .face{
     position: absolute;
     top: 0;
@@ -30,5 +38,21 @@
         font-size: 1rem;
         text-decoration: line-through;
         font-weight: lighter;
+    }
+
+    .icons a{ 
+        width: 2.4rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        border: var(--border);
+        color: #fff;
+        font-size: 1rem;
+        margin: 0.3rem;
+        cursor: pointer;
+    }
+    .starts i{
+        font-size: 1rem;
+        background-color: var(--main-color);
     }
 }

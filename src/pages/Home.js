@@ -4,6 +4,7 @@ import Blogs from '../Component/Blogs/Blogs';
 import Contact from '../Component/Contact/Contact';
 import Hero from '../Component/Hero/Hero';
 import Menu from '../Component/Menu/Menu';
+import Review from '../Component/Review/Review';
 import Product from '../Component/Product/Product';
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
             <About/>
             <Menu/>
             <Product/>
+            <Review/>
             <Contact/>
             <Blogs/>
         </div>

@@ -1,0 +1,29 @@
+.reviewCart{
+    // align-items: center;
+    // justify-content: center;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 3rem 2rem;
+
+    .user{
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    p{
+        font-size: 1rem;
+        line-height: 1.8;
+        color: #ccc;
+        padding: 0.2rem 0;
+    }
+    h3{
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+    .stars i{
+        font-size: 1rem;
+        color: #ccc;
+    }
+}
